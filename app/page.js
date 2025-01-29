@@ -4,7 +4,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
-import { invalidCountries } from "@/util";
+
 import Legend from "@/components/legend";
 
 const Home = () => {
