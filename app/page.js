@@ -58,7 +58,7 @@ const Home = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [validCountries]);
 
   const handleMouseMove = (e, countryName) => {
     if (data && data[countryName]) {
