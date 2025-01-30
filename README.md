@@ -13,3 +13,13 @@ npm run dev
 ```
 
 http://localhost:3000 ochish
+
+## login
+```input
+havoyuli
+```
+
+## parol
+```input
+havo123yuli
+```
