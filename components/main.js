@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 
 import Legend from "@/components/legend";
+import { validCountries } from "@/util";
 
 const Main = () => {
   const router = useRouter();
