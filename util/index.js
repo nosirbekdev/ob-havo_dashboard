@@ -8,8 +8,6 @@ const countriesList = response.data.objects.countries.geometries.map(
 );
 
 const invalidCountries = ["eSwatini", "Antarctica", "Czechia", "Somaliland"];
-const validCountries = countriesList.filter(
+export const validCountries = countriesList.filter(
   (country) => !invalidCountries.includes(country)
 );
-
-return validCountries;
